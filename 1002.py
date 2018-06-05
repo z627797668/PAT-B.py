@@ -11,7 +11,7 @@ else:
     while sum>0:
         num.append(int(sum%10))
         i+=1
-        sum=sum//10
+        sum=sum//10   #python除法
     i-=1
     while i>=0: 
         if i!=0:
